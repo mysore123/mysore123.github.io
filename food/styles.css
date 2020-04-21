@@ -1,0 +1,53 @@
+body,html{
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.bg{
+  background-image: url("food2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topic{
+  position: absolute;
+  top:2px;
+  right:50px;
+  color: black;
+  font-size: 30px;
+  font-weight:100;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  width:45%;
+
+}
+
+.filebutton{
+  position: absolute;
+  top:400px;
+  right:140px;
+}
+
+#mybutton{
+  width:175px;
+  height:50px;
+  color:white;
+  font-size: 15px;
+  background-color:grey;
+  border-style:solid;
+  margin-right: 10px;
+}
+#mybutton:hover{
+  background-color:white;
+  color:black;
+
+}
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #aaa;
+}
